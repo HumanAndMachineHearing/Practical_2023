@@ -18,7 +18,7 @@ After successful completion of the practical assignments, you can...
 
 # Materials
 ## Dataset
-The dataset that we are using in this practical is the Environmental Sound Classification 50 (ESC-50) dataset[1]. This dataset consists of sound clips of 5 second duration in five categories: “Natural soundscapes & Water sounds”, “Human, non-speech sounds”, “Interior/Domestic sounds”, “Exterior/Urban noises”. More information about the dataset can be found here: https://github.com/karolpiczak/ESC-50.  
+The dataset that we are using in this practical is the Environmental Sound Classification 50 (ESC-50) dataset[1]. This dataset consists of sound clips of 5 second duration in five categories: “Natural soundscapes & Water sounds”, “Human, non-speech sounds”, “Interior/Domestic sounds”, “Exterior/Urban noises”. More information about the dataset can be found [here](https://github.com/karolpiczak/ESC-50).  
 
 The link to the ESC-50 database and metafile is on Brightspace in 'Content' --> 'Practical' --> 'Dataset'.  
 
@@ -31,7 +31,7 @@ Here, we make use of the ResNet model with 18 layers. Although this relatively s
 * **Pytorch:** The assignments use the open-source library [Pytorch](https://pytorch.org/) to implement the ResNet-18 model. 
 *	**Torchaudio:** The assignments use [Torchaudio](https://pytorch.org/audio/stable/index.html) to compute and extract relevant audio features. Torchaudio is a library for audio and signal processing with Pytorch.  A good alternative to Torchaudio is [Librosa](https://librosa.org/doc/latest/index.html). 
 *	**WandB (Weights and Biases):** The assignments use the [Weights & Biases ML Ops platform](https://wandb.ai/site) to visualize and track training progress.  
-*	**Colab:** You can work on the assingments using (Google Colab)[https://colab.google/]. Colab is a hosted Jupyter Notebook service. Use Google Drive for data storage. If you do not yet have an account, please sign up and create an account. 
+*	**Colab:** You can work on the assingments using [Google Colab](https://colab.google/). Colab is a hosted Jupyter Notebook service. Use Google Drive for data storage. If you do not yet have an account, please sign up and create an account. 
 
 ## The assignments
 You can download assignments, clone the repository or open an assignment in Google Colab using the link at the top of the script. Assignments will be added at the latest on the evening before the practical session. In total, there will be six assignments.   
