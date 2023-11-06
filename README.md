@@ -28,7 +28,7 @@ For this assignment, we make use of the ResNet-18 model [2]. ResNet models use s
 Here, we make use of the ResNet model with 18 layers. Although this relatively small ResNet performs on par with other state-of-the-art architectures, it has relatively low complexity and converges faster [2].
 
 ## Libraries, frameworks, platforms
-* **Pytorch:** The assignments use the open-source library Pytorch to implement the ResNet-18 model (see https://pytorch.org/). 
+* **Pytorch:** The assignments use the open-source library [Pytorch](https://pytorch.org/) to implement the ResNet-18 model. 
 *	**Torchaudio:** The assignments use Torchaudio to compute and extract relevant audio features. Torchaudio is a library for audio and signal processing with Pytorch (see https://pytorch.org/audio/stable/index.html).  A good alternative to Torchaudio is Librosa (https://librosa.org/doc/latest/index.html). 
 *	**WandB (Weights and Biases):** The assignments use the Weights & Biases ML Ops platform to visualize and track training progress (see https://wandb.ai/site).  
 *	**Colab:** You can work on the assingments using Google Colab. Colab is a hosted Jupyter Notebook service. Use Google Drive for data storage. If you do not yet have an account, please sign up and create an account (see https://colab.google/). 
