@@ -1,9 +1,9 @@
 # Introduction to the Practical Assignments
 <p align = "justify">This repository contains the assignments and code for the Practical Assignment of the Course SOW-MKI85 Machine Hearing 2023-2024. 
 
-This practical aims to provide you with a hands on experience with deep learning approaches for machine hearing. You will learn to pre-process audio, to extract relevant audio features, to train a ResNet-18 model on an environmental sound classification task and to evaluate the performance of the trained model.
+<p align = "justify">This practical aims to provide you with a hands on experience with deep learning approaches for machine hearing. You will learn to pre-process audio, to extract relevant audio features, to train a ResNet-18 model on an environmental sound classification task and to evaluate the performance of the trained model.
 
-The practical consists of six sessions. Session 1 and Session 2 introduce the assignment, the dataset, relevant concepts, frameworks, libraries, and audio feature extraction. Session 3 to Session 6 cover data preprocessing, training the ResNet-18 model on different sets of features, and evaluating and visualizing model performance.
+<p align = "justify">The practical consists of six sessions. Session 1 and Session 2 introduce the assignment, the dataset, relevant concepts, frameworks, libraries, and audio feature extraction. Session 3 to Session 6 cover data preprocessing, training the ResNet-18 model on different sets of features, and evaluating and visualizing model performance.
 
 ## Intended learning outcomes
 After successful completion of the practical assignments, you can...
@@ -18,14 +18,14 @@ After successful completion of the practical assignments, you can...
 
 # Materials
 ## Dataset
-The dataset that we are using in this practical is the Environmental Sound Classification 50 (ESC-50) dataset[1]. This dataset consists of sound clips of 5 second duration in five categories: “Natural soundscapes & Water sounds”, “Human, non-speech sounds”, “Interior/Domestic sounds”, “Exterior/Urban noises”. More information about the dataset can be found [here](https://github.com/karolpiczak/ESC-50).  
+<p align = "justify">The dataset that we are using in this practical is the Environmental Sound Classification 50 (ESC-50) dataset[1]. This dataset consists of sound clips of 5 second duration in five categories: “Natural soundscapes & Water sounds”, “Human, non-speech sounds”, “Interior/Domestic sounds”, “Exterior/Urban noises”. More information about the dataset can be found [here](https://github.com/karolpiczak/ESC-50).  
 
-The link to the ESC-50 database and metafile is on Brightspace in 'Content' --> 'Practical' --> 'Dataset'.  
+<p align = "justify">The link to the ESC-50 database and metafile is on Brightspace in 'Content' --> 'Practical' --> 'Dataset'.  
 
 ## The Resnet-18 model
-For this assignment, we make use of the ResNet-18 model [2]. ResNet models use skip connections to learn residual functions with respect to the input, rather than learning unreferenced functions as is the case in most neural networks. These skip connections mitigate the vanishing/exploding gradient problem that deep neural networks encounter, resulting in faster convergence and better performance. 
+<p align = "justify">For this assignment, we make use of the ResNet-18 model [2]. ResNet models use skip connections to learn residual functions with respect to the input, rather than learning unreferenced functions as is the case in most neural networks. These skip connections mitigate the vanishing/exploding gradient problem that deep neural networks encounter, resulting in faster convergence and better performance. 
 
-Here, we make use of the ResNet model with 18 layers. Although this relatively small ResNet performs on par with other state-of-the-art architectures, it has relatively low complexity and converges faster [2].
+<p align = "justify">Here, we make use of the ResNet model with 18 layers. Although this relatively small ResNet performs on par with other state-of-the-art architectures, it has relatively low complexity and converges faster [2].
 
 ## Libraries, frameworks, platforms
 * **Pytorch:** The assignments use the open-source library [Pytorch](https://pytorch.org/) to implement the ResNet-18 model. 
@@ -34,7 +34,7 @@ Here, we make use of the ResNet model with 18 layers. Although this relatively s
 *	**Colab:** You can work on the assingments using [Google Colab](https://colab.google/). Colab is a hosted Jupyter Notebook service. Use Google Drive for data storage. If you do not yet have an account, please sign up and create an account. 
 
 ## The assignments
-You can download assignments, clone the repository or open an assignment in Google Colab using the link at the top of the script. Assignments will be added at the latest on the evening before the practical session. In total, there will be six assignments.   
+<p align = "justify">You can download assignments, clone the repository or open an assignment in Google Colab using the link at the top of the script. Assignments will be added at the latest on the evening before the practical session. In total, there will be six assignments.   
 
 # Practical report
 The Practical Assignments are completed with a Practical Report consisting of two parts:
