@@ -34,12 +34,14 @@ Here, we make use of the ResNet model with 18 layers. Although this relatively s
 *	**Colab:** You can work on the assingments using Google Colab. Colab is a hosted Jupyter Notebook service. Use Google Drive for data storage. If you do not yet have an account, please sign up and create an account (see https://colab.google/). 
 
 ## The assignments
-You can either download the assignments as a .zip file by clicking on 'Code' --> 'Local' --> 'Download ZIP' or clone the repository in 'Code' --> 'Clone'.  
+You can download assignments, clone the repository or open an assignment in Google Colab using the link at the top of the script. Assignments will be added at the latest on the evening before the practical session. In total, there will be six assignments.   
 
 # Practical report
 The Practical Assignments are completed with a Practical Report consisting of two parts:
 <br>
-* 
+* **Part 1:** Audio feature extraction, [template practical report](https://www.overleaf.com/read/htdgvkcwjcdn#eaa6eb). 
+* **Part 2:** Sound classification using the Resnet-18 model.
+
 
 # References
 [1] Piczak, K. J. (2015, October). ESC: Dataset for environmental sound classification. In Proceedings of the 23rd ACM international conference on Multimedia (pp. 1015-1018).
