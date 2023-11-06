@@ -7,9 +7,13 @@ The practical consists of six sessions. Session 1 and Session 2 introduce the as
 
 ## Intended learning outcomes
 After successful completion of the practical assignments, you can...
+<br>
 •	Describe, extract and analyse relevant audio features for sound classification.
+<br>
 •	Implement a ResNet-18 model using either a single audio feature or combinations of three features. 
+<br>
 •	Evaluate and compare model performance for a sound classification task using relevant performance metrics.
+<br>
 •	Visualize data and results in a meaningful, informative way. 
 
 # Materials
