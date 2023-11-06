@@ -39,8 +39,8 @@ You can download assignments, clone the repository or open an assignment in Goog
 # Practical report
 The Practical Assignments are completed with a Practical Report consisting of two parts:
 <br>
-* **Part 1:** Audio feature extraction, [template practical report](https://www.overleaf.com/read/htdgvkcwjcdn#eaa6eb). 
-* **Part 2:** Sound classification using the Resnet-18 model.
+* **Part 1:** Audio feature extraction; [template practical report part 1](https://www.overleaf.com/read/htdgvkcwjcdn#eaa6eb). 
+* **Part 2:** Sound classification using the Resnet-18 model; [template practical report part 2](https://www.overleaf.com/read/qdzdmzpnnqjb#45d1a7).
 
 
 # References
