@@ -16,17 +16,36 @@ After successful completion of the practical assignments, you can...
 <br>
 •	Visualize data and results in a meaningful, informative way. 
 
+
+
 # Materials
-**Dataset** <br>
-The dataset that we are using in this practical is the Environmental Sound Classification 50 (ESC-50) dataset[1]. This dataset consists of sound clips of 5 second duration in five categories: “Natural soundscapes & Water sounds”, “Human, non-speech sounds”, “Interior/Domestic sounds”, “Exterior/Urban noises”. The dataset is available for download here: https://github.com/karolpiczak/ESC-50.  
+##Dataset
+The dataset that we are using in this practical is the Environmental Sound Classification 50 (ESC-50) dataset[1]. This dataset consists of sound clips of 5 second duration in five categories: “Natural soundscapes & Water sounds”, “Human, non-speech sounds”, “Interior/Domestic sounds”, “Exterior/Urban noises”. More information about the dataset can be found here: https://github.com/karolpiczak/ESC-50.  
 
 The link to the ESC-50 database and metafile is on Brightspace in 'Content' --> 'Practical' --> 'Dataset'.  
 
-# Downloading the assignments
+## The Resnet-18 model
+For this assignment, we make use of the ResNet-18 model [2]. ResNet models use skip connections to learn residual functions with respect to the input, rather than learning unreferenced functions as is the case in most neural networks. These skip connections mitigate the vanishing/exploding gradient problem that deep neural networks encounter, resulting in faster convergence and better performance. 
+
+Here, we make use of the ResNet model with 18 layers. Although this relatively small ResNet performs on par with other state-of-the-art architectures, it has relatively low complexity and converges faster [2].
+
+## Libraries, frameworks, platforms
+•	**Pytorch:** The assignments use the open-source library Pytorch to implement the ResNet-18 model (see https://pytorch.org/). 
+<br>
+•	**Torchaudio:** The assignments use Torchaudio to compute and extract relevant audio features. Torchaudio is a library for audio and signal processing with Pytorch (see https://pytorch.org/audio/stable/index.html).  A good alternative to Torchaudio is Librosa (https://librosa.org/doc/latest/index.html). 
+<br>
+•	**WandB (Weights and Biases):** The assignments use the Weights & Biases ML Ops platform to visualize and track training progress (see https://wandb.ai/site).  
+<br>
+•	**Colab:** You can work on the assingments using Google Colab. Colab is a hosted Jupyter Notebook service. Drive for data storage. If you do not yet have an account, please sign up and create an account (see https://colab.google/). 
+
+
+
+## The assignments
 You can either download the assignments as a .zip file by clicking on 'Code' --> 'Local' --> 'Download ZIP' or clone the repository in 'Code' --> 'Clone'.  
 
 # References
 [1] Piczak, K. J. (2015, October). ESC: Dataset for environmental sound classification. In Proceedings of the 23rd ACM international conference on Multimedia (pp. 1015-1018).
+<br>
 [2] He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 770-778).
 
 
