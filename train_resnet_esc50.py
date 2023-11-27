@@ -49,7 +49,7 @@ print(labels_val)
 
 # Set parameters for WandB logging -- Not yet, try to make this work only later
 wandb.init(project="PROJECTNAME") # set the wandb project where this run will be logged
-wandb.run.name = 'RUN_NAME' # Include useful information, e.g. 'CHNLS_1_DIM_128_BS_32_LR_dot0002_MAXEPOCH_50_GAMMA_dot75' 
+wandb.run.name = 'RUN_NAME' # Include useful information, e.g. 'NAME_BatchSize_XX_LR_XX_Epochs_XX_Gamma_XX' 
 
 # CUDA for PyTorch
 use_cuda = torch.cuda.is_available()
