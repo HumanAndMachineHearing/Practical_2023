@@ -55,7 +55,7 @@ params_test = {'batch_size': 100,
               'shuffle': False}
 
 # Define parameters.
-nr_channels    = 3 # This specifies the number of channels that is used. Can be set either to 1 or 3.
+nr_channels    = 1 # This specifies the number of channels that is used. Can be set either to 1 or 3.
 nr_classes     = 5 # For the ESC50 dataset, the nr of classes is 5. 
 
 # Generators
